@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "186943249976",
+    "firebase_url": "https://adkoinadminapp.firebaseio.com",
+    "project_id": "adkoinadminapp",
+    "storage_bucket": "adkoinadminapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186943249976:android:bed31fc59e2c5503",
+        "android_client_info": {
+          "package_name": "com.example.ramya.adminapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186943249976-sf4u7fko58sh6q21k7clv6cbnqsbga57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ramya.adminapp2",
+            "certificate_hash": "ad2bd2ff5bf8e4388b27e3e07a05216582014351"
+          }
+        },
+        {
+          "client_id": "186943249976-lfvn9keguetp25qaran4qgqvgbqhs6bv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRVUef_UwTpniyXDB0BEPKvjbld-jj6ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186943249976-lfvn9keguetp25qaran4qgqvgbqhs6bv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

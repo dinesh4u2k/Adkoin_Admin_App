@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp"
-    tools:context="com.example.ramya.adminapp2.MainActivity">
+    android:padding="10dp"
+    tools:context="com.example.adkoin.adminapp2.MainActivity">
 
     <Button
         android:id="@+id/button_choose_image"
@@ -19,15 +19,35 @@
         android:padding="10dp"
 
         />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Tag"/>
+
+        <EditText
+
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:hint="Enter Image Name"/>
+    </LinearLayout>
     <EditText
-        android:id="@+id/edit_text_file_name"
+        android:id="@+id/cost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Image Name"/>
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Cost"/>
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="250dp" />
     <ProgressBar
         android:id="@+id/progress_bar"
         style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"

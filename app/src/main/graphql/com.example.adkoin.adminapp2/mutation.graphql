@@ -1,0 +1,26 @@
+mutation AddPersonMutation($username:String!,$mobileno:String!,$wallet:Int!){
+  addPerson(username:$username,mobileno:$mobileno,wallet:$wallet){
+    username
+    mobileno
+    wallet
+  }
+}
+
+
+mutation UpdateMutation($mobileno:String!,$wallet:Int!) {
+  updatePersonsWallet(mobileno:$mobileno,wallet:$wallet){
+    wallet
+  }
+}
+
+mutation AddbannerMutation($imageurl:String!, $bannerlink:String!, $tag:String!, $cost:Int!){
+  addBanner(imageurl:$imageurl,bannerlink:$bannerlink,tag:$tag,cost:$cost){
+    imageurl
+  }
+}
+
+mutation DeletebannerMutation($bannerlink:String!){
+  deletebanner(bannerlink:$bannerlink){
+    imageurl
+  }
+}
